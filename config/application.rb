@@ -35,7 +35,7 @@ module NumeronApi
 
     config.middleware.insert_before 0, Rack::Cors do
       allow do
-        origins 'http://localhost:3000', 'https://kwibong-numeron-api.herokuapp.com'
+        origins 'http://localhost:3000', 'https://kwibong-hitblow-api.herokuapp.com'
         resource '*',
         :headers => :any,
         :methods => [:get, :post, :put, :patch, :delete, :options]
